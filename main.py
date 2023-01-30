@@ -18,7 +18,7 @@ def handle_telegram_message(message):
     body = f'Message content: {message["text"]}'
     recipient = 'you@example.com'
     sender = 'sender@example.com'
-    password = 'your_email_password'
+    password = 'email_password'
     send_email(subject, body, recipient, sender, password)
 
 # assume that the message is a dictionary containing the message text
